@@ -1,0 +1,38 @@
+.benefits {
+    padding: 120px 0;
+}
+.benefits__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.benefits__title {
+    max-width: 260px;
+    font-weight: 700;
+    font-size: 42px;
+}
+.benefit__title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.benefit__text {
+    opacity: 0.8;
+    font-size: 16px;
+    line-height: 185%;
+    margin-bottom: 15px;
+}
+.benefit__link {
+    display: inline-flex;
+    gap: 13px;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 185%;
+    color: var(--accent);
+    &::after {
+        content: url(./../../img/icons/right-arrow.svg);
+        height: 24px;
+    }
+}

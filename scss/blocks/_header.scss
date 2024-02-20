@@ -1,0 +1,89 @@
+.header {
+    position: relative;
+    padding-top: 40px;
+    background-image: url(./../../img/header-bg.jpg);
+    background-size: cover;
+    aspect-ratio: 1440 / 1084;
+    color: var(--white);
+    @include retina-bg(url(./../../img/header-bg2x.jpg));
+    a {
+        color: var(--white);
+    }
+}
+
+.header__content {
+    margin: 0 auto;
+    text-align: center;
+    width: 880px;
+}
+.header__title {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.header__subtitle {
+    opacity: 0.8;
+    font-size: 24px;
+    margin: 0 auto;
+    width: 600px;
+    line-height: 160%;
+    margin-bottom: 45px;
+}
+.search-form {
+    margin: 0 auto;
+    max-width: 344px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px 8px 20px;
+    border: 0.86px solid rgba(255, 255, 255, 0.6);
+    border-radius: 42px;
+    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.15);
+}
+.search-form__input {
+    color: #fff;
+    font-size: 18px;
+    line-height: 150%;
+    &::placeholder {
+        opacity: 0.8;
+        color: #fff;
+    }
+}
+.search-form__btn {
+    padding: 11px;
+    background: var(--accent);
+    border-radius: 50%;
+}
+
+// dots
+
+.header__dot-sofa {
+    position: absolute;
+    left: 21%;
+    top: 63.2%;
+
+}
+
+.header__dot-vase {
+    position: absolute;
+    left: 7.9%;
+    top: 69.5%;
+}
+
+.header__dot-lamp {
+    position: absolute;
+    left: 55.3%;
+    top: 72.7%;
+}
+
+.header__dot-wall {
+    position: absolute;
+    left: 95.8%;
+    top: 75.8%;
+}
+
+
+

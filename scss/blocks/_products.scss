@@ -1,0 +1,54 @@
+.products {
+    padding: 50px 0;
+    background: #F7F7F7;
+}
+
+.products__title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.products__tabs {
+    margin-bottom: 80px;
+    text-align: center;
+}
+.products__slider {
+    margin-bottom: 60px;
+}
+
+.products__link {
+    text-align: center;
+}
+
+.read-more--xl {
+    font-size: 18px;
+}
+
+//tabs
+
+.tab-controls{
+    display: inline-flex;
+    padding: 6px;
+    background: #EEEEEE;
+    border-radius: 44px;
+}
+
+.tab-controls__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 185%;
+    opacity: 0.8;
+    padding: 7px 20px;
+    border-radius: 32px;
+    transition: 1s;
+    &:hover {
+        background: rgba(255, 255, 255, 0.5);
+    }
+    &--active {
+        background: #fff;
+    }
+}
